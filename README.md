@@ -1,4 +1,3 @@
-# new readme file
 
 # This is updated from new repo
 
@@ -10,7 +9,7 @@ In a nutshell:
 `git merge branchname` takes new commits from the branch branchname, and adds them to the current branch.
 If necessary, it automatically adds a "Merge" commit on top.
 
-`git rebase branchname` takes new commits from the branch branchname, and inserts them "under" your changes. More precisely, it modifies the history of the current branch such that it is based on the tip of branchname, with any changes you made on top of that.
+`git rebase branchname` takes new commits from the branch branchname, and inserts them "under" your changes. More precisely, it modifies the history of the current branch such that it is based on the top of branchname, with any changes you made on top of that.
 
 `git pull` is basically the same as` git fetch; git merge origin/master`.
 
