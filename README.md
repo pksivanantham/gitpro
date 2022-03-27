@@ -25,3 +25,11 @@ By the time you're ready to push your changes, several commits have been pushed 
 If you `git pull` (which uses merge), your changes will be buried by the new commits, in addition to an automatically-created merge commit.
 
 If you `git pull --rebase` instead, git will fast forward your master to upstream's, then apply your changes on top.
+
+`git pull --allow-unrelated-histories` Scenario 1:
+1. Created repo in local and added commits
+2. Created repo in github with readme file.
+
+
+Now we want local repo to sync with origin repository then we have to use pull with --allow-unrelated-histories `git pull --allow-unrelated-histories`
+
